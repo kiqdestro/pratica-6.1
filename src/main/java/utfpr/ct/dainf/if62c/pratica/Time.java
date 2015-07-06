@@ -12,16 +12,16 @@ import java.util.HashMap;
  * @author kiqdestro
  */
 public class Time {
-    private HashMap<String, Jogador> time = new HashMap<>();
+    private HashMap<String, Jogador> jogadores = new HashMap<>();
     public String getJogadores;
     
     public HashMap <String, Jogador> getJogadores(){
-        HashMap<String, Jogador> time = new HashMap<>();
-        time = this.time;
-        return time;
+        HashMap<String, Jogador> jogadores = new HashMap<>();
+        jogadores = this.jogadores;
+        return jogadores;
     }
     
     public void addJogador(String s, Jogador j){
-        time.put(s, j);
+        jogadores.put(s, j);
     }
 }
