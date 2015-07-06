@@ -1,7 +1,7 @@
 
 import java.util.HashMap;
-import utfpr.dainf.if62c.pratica.Jogador;
-import utfpr.dainf.if62c.pratica.Time;
+import utfpr.ct.dainf.if62c.pratica.Jogador;
+import utfpr.ct.dainf.if62c.pratica.Time;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -13,7 +13,7 @@ import utfpr.dainf.if62c.pratica.Time;
  *
  * @author kiqdestro
  */
-public class Principal {
+public class Pratica61 {
     
     public static void main(String[] args){
         Time time1 = new Time();
